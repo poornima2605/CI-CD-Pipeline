@@ -4,14 +4,14 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'https://github.com/poornima2605/CI-CD-Pipeline-.git'
+        DOCKER_IMAGE = 'https://github.com/poornima2605/CI-CD-Pipeline.git'
     }
 
     stages {
         stage('Checkout Code') {
             steps {
                 // Pull the code from GitHub
-                git branch: 'main', url: 'https://github.com/poornima2605/CI-CD-Pipeline-.git'
+                git branch: 'main', url: 'https://github.com/poornima2605/CI-CD-Pipeline.git'
             }
         }
 

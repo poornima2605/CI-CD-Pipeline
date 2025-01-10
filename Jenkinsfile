@@ -4,14 +4,14 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'your-dockerhub-username/flask-app'
+        DOCKER_IMAGE = 'https://github.com/poornima2605/CI-CD-Pipeline-.git'
     }
 
     stages {
         stage('Checkout Code') {
             steps {
                 // Pull the code from GitHub
-                git branch: 'main', url: 'https://github.com/your-username/your-repo.git'
+                git branch: 'main', url: 'https://github.com/poornima2605/CI-CD-Pipeline-.git'
             }
         }
 

@@ -4,7 +4,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'https://github.com/poornima2605/CI-CD-Pipeline.git'
+        DOCKER_IMAGE = 'poornimakaushik/flask-app'
     }
 
     stages {

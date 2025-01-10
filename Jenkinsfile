@@ -4,7 +4,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'poornimakaushik/flask-app'
+        DOCKER_IMAGE = 'https://hub.docker.com/u/poornimakaushik/flask-app'
     }
 
     stages {
